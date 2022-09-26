@@ -6,13 +6,13 @@
 /*   By: nye-eun- <nye-eun-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/13 18:58:58 by nye-eun-          #+#    #+#             */
-/*   Updated: 2022/09/26 19:29:20 by nye-eun-         ###   ########.fr       */
+/*   Updated: 2022/09/26 15:36:15 by nye-eun-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit( int argument )
+int	ft_isdigit( int n)
 {
-	return (argument >= 48 && argument <= 97);
+	return ('0' <= n && n <= '9');
 }

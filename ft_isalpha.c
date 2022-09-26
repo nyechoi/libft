@@ -6,16 +6,13 @@
 /*   By: nye-eun- <nye-eun-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/13 18:58:44 by nye-eun-          #+#    #+#             */
-/*   Updated: 2022/09/26 19:41:58 by coder            ###   ########.fr       */
+/*   Updated: 2022/09/26 15:35:21 by nye-eun-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalpha(int argument)
+int	ft_isalpha(int c)
 {
-	if ((97 <= argument && argument <= 122) || (65 <= argument && argument <= 122))
-		return (1);
-	else
-		return (0);
+	return (('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z'));
 }

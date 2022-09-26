@@ -6,16 +6,13 @@
 /*   By: nye-eun- <nye-eun-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/13 18:58:50 by nye-eun-          #+#    #+#             */
-/*   Updated: 2022/09/26 19:43:43 by coder            ###   ########.fr       */
+/*   Updated: 2022/09/26 15:36:54 by nye-eun-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalnum(int argument)
+int	ft_isalnum(int c)
 {
-	if (ft_isalpha(argument) || ft_isdigit(argument))
-		return (1);
-	else
-		return (0);
+	return (ft_isalpha(c) || ft_isdigit(c));
 }

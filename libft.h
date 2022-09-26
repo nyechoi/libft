@@ -6,7 +6,7 @@
 /*   By: nye-eun- <nye-eun-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/13 18:58:23 by nye-eun-          #+#    #+#             */
-/*   Updated: 2022/09/26 16:26:28 by nye-eun-         ###   ########.fr       */
+/*   Updated: 2022/09/26 15:38:29 by nye-eun-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,11 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-int		ft_isalpha(int argument);
-int		ft_isdigit( int argument );
-int		ft_isalnum(int argument);
-int		ft_isacii(int argument);
-int		ft_isprint(int argument);
+int		ft_isalpha(int c);
+int		ft_isdigit( int n);
+int		ft_isalnum(int c);
+int		ft_isascii(int c);
+int		ft_isprint(int c);
 size_t	ft_strlen(const char *s);
 void	*ft_memset(void *s, int c, size_t n);
 void	ft_bzero(void *s, size_t n);
